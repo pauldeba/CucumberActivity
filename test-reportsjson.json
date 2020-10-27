@@ -1,0 +1,82 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-10-17T06:16:42.316Z",
+        "line": 6,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40821694100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login",
+            "match": {
+              "location": "stepDefinations.Login.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15093779100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click",
+            "match": {
+              "location": "stepDefinations.Logout.addClick()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2671495000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Logout",
+            "match": {
+              "location": "stepDefinations.Logout.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
